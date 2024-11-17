@@ -27,14 +27,12 @@ public class EntendendoJUnitTest {
     @Test
     public void testandoAlgo() {
         String nome = String.format("%s", "Alexandre");
-
         Assert.assertEquals("Alexandre", nome);
     }
 
     @Test
     public void testandoOutraCoisa() {
         String str = String.format("%s", "");
-
         Assert.assertTrue(str.isEmpty());
     }
 }
